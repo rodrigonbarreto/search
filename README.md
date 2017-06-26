@@ -1,4 +1,4 @@
-Search
+Simple Search with elasticsearch
 ================
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
@@ -23,26 +23,20 @@ This application requires:
 
 - Ruby 2.3.3
 - Rails 5.0.3
+- Sqlite3
+- Searchkick (Gem)
+- ElastichSearch
+- Bootstrap
+- Rails Composer
+
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-Getting Started
+
+Getting Started - If you need setup index
 ---------------
+- rails c and Series.reindex -> generate index elastic search look more in Searchkick GEM
 
-Documentation and Support
+Sample Image
 -------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+ ![SAMPLE](http://res.cloudinary.com/dcikw6bzg/image/upload/v1498502762/Screen_Shot_2017-06-26_at_20.45.40_qvx3ku.png)
